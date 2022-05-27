@@ -74,7 +74,7 @@ function App() {
     if (!provider) {
       throw new Error("Provider not connected");
     }
-    const contract = new Contract(DAI.address, DAI.abi, provider.getSigner());
+    const contract = new Contract(NFTransport.address, NFTransport.abi, provider.getSigner());
     const res = await contract.safeMint(utils.parseEther("1"));
     console.log("res", res);
   }
@@ -95,7 +95,7 @@ function App() {
         )}
       </header>
       <NftGallery
-        ownerAddress="{address}"
+        ownerAddress={address}
         apiUrl="https://testnets-api.opensea.io" />;
     </div>
   );
