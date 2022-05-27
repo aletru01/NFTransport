@@ -1,0 +1,18 @@
+{
+    "name": "Sneacker redeemed",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZPLBXVsBvc1vVsJ3LjBRebK9QYqfGPwdaanQyGF2J6xU/redeemed.png",
+    "attributes": [
+      {
+        "trait_type": "redeemable",
+        "value": "no"
+      },
+      {
+        "trait_type": "closing",
+        "value": "Laces"
+      },
+      {
+        "trait_type": "height",
+        "value": "high"
+      }
+    ]
+  }
