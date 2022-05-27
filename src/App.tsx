@@ -95,7 +95,7 @@ function App() {
         )}
       </header>
       <NftGallery
-        ownerAddress={address}
+        ownerAddress="0xcbeb03588231c3910d86b2f418453614ed799914"
         apiUrl="https://testnets-api.opensea.io" />;
     </div>
   );
