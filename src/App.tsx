@@ -66,7 +66,7 @@ function App() {
       throw new Error("Provider not connected");
     }
     const contract = new Contract(NFTransport.address, NFTransport.abi, provider.getSigner());
-    const res = await contract.redeem(utils.parseEther("1"));
+    const res = await contract.redeem(1);
     console.log("res", res);
   }
   //async function redeem
